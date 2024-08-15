@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: #f1c40f;
+    color: #282936;
+    height: 4.2rem;
+    width: 100%;
+}
+.heading h1{
+    padding: 12px;
+}
+.btn-div button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #f1c40f;
+    color: #282936;
+    font-size: 15px;
+    position: absolute;
+    top: 5.25rem;
+    right: 0.625rem;
+    cursor: pointer;
+}
+
+.note{
+    height: 10rem;
+    width: 20rem;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.note button{
+    background: none;
+    border: transparent;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.note button:hover{
+    background: #f1c40f;
+    border-radius: 50%;
+}
+textarea{
+    resize: none;
+    border: transparent;
+    background-color: aliceblue;
+}
+
+.hidden{
+    display: none;
+}
